@@ -1,7 +1,7 @@
 version: '3'
 services:
   student_service:
-    image: devOpsLabs/student_service
+    image: james/student_service
     restart: unless-stopped
     depends_on:
       - mongo
