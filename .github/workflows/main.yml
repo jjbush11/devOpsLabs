@@ -24,7 +24,7 @@ jobs:
     - name: "Check files existence"
       uses: andstor/file-existence-action@v2
       with:
-        files: "swagtutorial/postman/collection.json,postman/environment.json"
+        files: "swagtutorial/postman/collection.json,swagtutorial/postman/environment.json"
         fail: true
 
     - name: Run API Tests
